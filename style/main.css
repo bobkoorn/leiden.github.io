@@ -1,0 +1,78 @@
+[class*="col-"] {
+    display:block;
+    width:100%;
+}
+@media only screen and (min-width: 768px) {
+    .col-1 {width:8.33%;display:table-cell;}
+    .col-2 {width:16.66%;display:table-cell;}
+    .col-3 {width:25%;display:table-cell;}
+    .col-4 {width:33.33%;display:table-cell;}
+    .col-5 {width:41.66%;display:table-cell;}
+    .col-6 {width:50%;display:table-cell;}
+    .col-7 {width:58.33%;display:table-cell;}
+    .col-8 {width:66.66%;display:table-cell;}
+    .col-9 {width:75%;display:table-cell;}
+    .col-10 {width:83.33%;display:table-cell;}
+    .col-11 {width:91.66%;display:table-cell;}
+    .col-12 {width:100%;}
+}
+body {
+    font-family:'Open Sans';
+    padding:0;
+    margin:0;
+    line-height:1.7em;
+}
+h1 {
+    background-image:url("../images/leiden_header.jpg");
+    background-size: auto 100%;
+    font-weight:600;
+    color:white;
+    margin:0;
+    padding: 50px 0px 50px 20px;
+}
+h2 {
+    font-weight:600;
+    line-height:1em;
+    margin:0px 0px 20px 0px;
+}
+p {
+    margin:0;
+}
+footer {
+    text-align:center;
+    background-color:darkred;
+    color:white;
+    margin:0;
+}
+footer p {
+    display:inline-block;
+    padding:20px 0px 20px 0px;
+}
+ul {
+    list-style:none;
+    margin: 0;
+    padding: 20px 0px 20px 20px;
+}
+article {
+    text-align:justify;
+    padding:20px;
+}
+article p {
+    padding-right:120px;
+}
+div img {
+    float: right;
+    width:100px;
+    margin: 0.5em -120px 0px 20px;
+}
+.wrap {
+    display:table;
+}
+#facts {
+    background-color:dimgray;
+    color:white;
+    font-weight:600;
+}
+#article1,#article2 {
+    background-color:lightslategrey;
+}
